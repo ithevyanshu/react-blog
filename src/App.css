@@ -1,0 +1,119 @@
+.nav{
+  background-color: antiquewhite;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav a{
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: white;
+  margin-left: 10px;
+}
+
+/* --BlogList--------------------------------------------- */
+
+h2{
+  margin-top: 15px;
+}
+
+.home{
+  margin-top: 4rem;
+}
+
+.blog-block{
+  border: 1px solid black;
+  border-radius: 20px 20px 0 0 ;
+  margin: 20px 10%;
+}
+
+.blog-head{
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  border-radius: 20px 20px 0 0 ;
+  padding: 15px 15px 10px;
+}
+
+.blog-title{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.blog-category{
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.blog-description{
+  padding: 15px;
+  background-color: rgb(255, 253, 251);
+}
+
+.blog-description>a{
+  color:rgb(216, 144, 50);
+}
+
+/* --BlogFrom----------------------------------------------- */
+
+.blogform{
+  /* border: 1px solid black; */
+  margin: 30px 50px;
+  padding: 30px 50px;
+}
+
+.blog-div{
+  margin: 20px 0;
+}
+
+label{
+  display: block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.input{
+  width: 100%;
+  border: 2px solid black;
+  font-size: 20px;
+  padding: 5px;
+}
+
+textarea{
+  height: 100px;
+}
+
+.submit{
+  background-color: antiquewhite;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* --BlogDetail--------------------------------------------- */
+
+.second-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0 20px 0;
+}
+
+.blog-action{
+  border: 1px solid black;
+  margin-left: 20px;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-family:'Times New Roman', Times, serif;
+  background-color: antiquewhite;
+}
+
+.back{
+  margin: 0;
+}
